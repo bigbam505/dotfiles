@@ -68,3 +68,9 @@ setopt CORRECT CORRECT_ALL
 
 # Enable extended globbing
 setopt EXTENDED_GLOB
+
+# Tmuxinator
+[[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator
+
+# Add psql crap
+PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
