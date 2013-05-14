@@ -1,0 +1,13 @@
+# ~/.tmuxinator/lucky.yml
+
+project_name: lucky
+project_root: ~/Dropbox/code/luckycharms
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        -
+  - logs: tail -f log/development.log
+  - console: rails c
+  - console:
