@@ -2,7 +2,7 @@
 
 project_name: hubot-lucky
 project_root: ~/Dropbox/code/hubot-luckycharms
-tabs:
+windows:
   - editor:
       layout: main-vertical
       panes:

@@ -1,15 +1,13 @@
-# ~/.tmuxinator/tag-cloud.yml
+# ~/.tmuxinator/deploy-ninja.yml
 
-project_name: tagcloud
+project_name: deploy-ninja
 pre_window: rbenv shell 2.0.0-p247
-project_root: ~/Dropbox/code/tag-cloud
+project_root: ~/Dropbox/code/deploy-ninja
 windows:
   - editor:
       layout: main-vertical
       panes:
         - vim
         -
-  - server: foreman start
   - logs: tail -f log/development.log
-  - console: rails c
-  - console:
+  - shell: 
