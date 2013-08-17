@@ -1,7 +1,6 @@
 # ~/.tmuxinator/deploy-ninja.yml
 
 project_name: deploy-ninja
-pre_window: rbenv shell 2.0.0-p247
 project_root: ~/Dropbox/code/deploy-ninja
 windows:
   - editor:

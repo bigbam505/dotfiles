@@ -12,8 +12,8 @@ alias -g L='| wc -l'
 alias -g ONE="| awk '{ print \$1}'"
 alias e="$EDITOR"
 alias v="$VISUAL"
-alias c="cd ~/Dropbox/code"
 alias dotfiles="cd ~/.dotfiles"
+alias tunnel="ssh -D 8080 bigbam505@batman.bmontague.com"
 
 # git
 alias g="git"

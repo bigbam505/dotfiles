@@ -74,7 +74,11 @@ setopt EXTENDED_GLOB
 
 eval "$(rbenv init -)"
 
-
 # recommended by brew doctor
 export PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin'
 
+function rvm () {
+  if [[ $1 == 'use' ]]; then
+    rbenv shell $2
+  fi
+}
