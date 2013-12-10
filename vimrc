@@ -21,6 +21,14 @@ if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
 endif
 
+if filereadable(expand("~/.vimrc/shortcuts.vim"))
+  source $HOME/.vim/shortcuts.vim
+endif
+
+if filereadable(expand("~/.vim/test_runners.vim"))
+  source $HOME/.vim/test_runners.vim
+endif
+
 filetype plugin indent on
 
 augroup vimrcEx

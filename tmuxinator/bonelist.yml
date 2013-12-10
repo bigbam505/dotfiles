@@ -1,0 +1,15 @@
+# ~/.tmuxinator/bonelist.yml
+
+project_name: bonelist
+pre_window: rbenv shell 2.0.0-p247
+project_root: ~/Dropbox/code/bonelist
+windows:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        -
+  - powder: powder open
+  - logs: powder applog
+  - console: rails c
+  - console:

@@ -8,5 +8,5 @@ windows:
       panes:
         - vim
         -
-  - logs: tail -f log/development.log
+  - logs: tail -f log/sinatra.log
   - shell: 
