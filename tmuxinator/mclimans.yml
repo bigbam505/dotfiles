@@ -8,7 +8,7 @@ windows:
       panes:
         - vim
         -
-  - server: foreman start
-  - logs: tail -f log/development.log
+  - server: powder open
+  - logs: powder applog
   - console: rails c
   - zsh: rake routes
