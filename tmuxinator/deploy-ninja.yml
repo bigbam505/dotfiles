@@ -8,5 +8,7 @@ windows:
       panes:
         - vim
         -
-  - logs: tail -f log/sinatra.log
-  - shell: 
+  - logs: powder applog
+  - console: rails c
+  - routes: rake routes
+  - zsh: powder open

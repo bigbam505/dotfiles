@@ -1,0 +1,14 @@
+# ~/.tmuxinator/fatty.yml
+
+project_name: fatty
+project_root: ~/Dropbox/code/fatty
+windows:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        -
+  - console: rails c
+  - routes: rake routes
+  - server: foreman start
+  - zsh:
